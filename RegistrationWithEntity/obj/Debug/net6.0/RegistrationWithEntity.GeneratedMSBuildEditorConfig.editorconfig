@@ -23,12 +23,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lonni/OneDrive/GrandCircus/RegistrationWithEntity/RegistrationWithEntity/Views/Registration/Application.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEFwcGxpY2F0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/lonni/OneDrive/GrandCircus/RegistrationWithEntity/RegistrationWithEntity/Views/Registration/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lonni/OneDrive/GrandCircus/RegistrationWithEntity/RegistrationWithEntity/Views/Registration/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lonni/OneDrive/GrandCircus/RegistrationWithEntity/RegistrationWithEntity/Views/Shared/Error.cshtml]
