@@ -42,14 +42,14 @@ namespace RegistrationWithEntity.Controllers
             return View(customer);
         }
 
-        public IActionResult Create()
+        public IActionResult Registration()
         {
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Email,Password,ConfirmPassword")] RegistrationPage customer)
+        public async Task<IActionResult> Registration([Bind("Id,FirstName,LastName,EmailAddress,Password,ConfirmPassword")] RegistrationPage customer)
         {
             if (ModelState.IsValid)
             {
@@ -77,7 +77,7 @@ namespace RegistrationWithEntity.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Email,Password,ConfirmPassword")] RegistrationPage customer)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,EmailAddress,Password,ConfirmPassword")] RegistrationPage customer)
         {
             if (id != customer.Id)
             {
